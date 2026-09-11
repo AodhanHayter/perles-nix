@@ -5,6 +5,13 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
+  nixConfig = {
+    extra-substituters = [ "https://perles-nix.cachix.org" ];
+    extra-trusted-public-keys = [
+      "perles-nix.cachix.org-1:33DY5Dd6f0ESCPzpkqe3IsTvVlN5GzfafZwk7lrTzGI="
+    ];
+  };
+
   outputs =
     { self, nixpkgs }:
     let

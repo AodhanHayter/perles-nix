@@ -66,15 +66,13 @@ Substituting it skips the upstream download and the completion-generation build:
 ```nix
 nix.settings = {
   substituters = [ "https://perles-nix.cachix.org" ];
-  trusted-public-keys = [ "perles-nix.cachix.org-1:REPLACE_WITH_PUBLIC_KEY" ];
+  trusted-public-keys = [ "perles-nix.cachix.org-1:33DY5Dd6f0ESCPzpkqe3IsTvVlN5GzfafZwk7lrTzGI=" ];
 };
 ```
 
 Non-NixOS: the same two keys in `~/.config/nix/nix.conf`, or `cachix use perles-nix`.
 
-Setup, once: create the `perles-nix` cache at app.cachix.org, then
-`gh secret set CACHIX_AUTH_TOKEN` with a write token, and paste the cache's
-public key above.
+CI needs `CACHIX_AUTH_TOKEN` (a write token) as a repo secret.
 
 ## Automation
 
