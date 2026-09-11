@@ -1,0 +1,9 @@
+{
+  "version": "0.8.94",
+  "platforms": {
+    "darwin_amd64": "sha256-C16av6Id5/VqrElCmgWjX4T8fw2VIP5ApZ5wksS1vUs=",
+    "darwin_arm64": "sha256-T9Rna5kC56J7vODOycbXIOlZ34Q3u1MfQ55SB6fshBw=",
+    "linux_amd64": "sha256-QBaXLMzkx5Fev3+jqZFloDL6QtAFpPQ7u+VI7DR+Ghc=",
+    "linux_arm64": "sha256-3xsHn/RYssiOaT/tooblAku9P2QzCAE7hEElw8SEXkA="
+  }
+}
