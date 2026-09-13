@@ -1,9 +1,9 @@
 {
-  "version": "0.8.94",
+  "version": "0.8.95",
   "platforms": {
-    "darwin_amd64": "sha256-C16av6Id5/VqrElCmgWjX4T8fw2VIP5ApZ5wksS1vUs=",
-    "darwin_arm64": "sha256-T9Rna5kC56J7vODOycbXIOlZ34Q3u1MfQ55SB6fshBw=",
-    "linux_amd64": "sha256-QBaXLMzkx5Fev3+jqZFloDL6QtAFpPQ7u+VI7DR+Ghc=",
-    "linux_arm64": "sha256-3xsHn/RYssiOaT/tooblAku9P2QzCAE7hEElw8SEXkA="
+    "darwin_amd64": "sha256-6Adf0Cn4mQKuhla/IJIJiSNS+Fo4SgSBndUpvdAzLQQ=",
+    "darwin_arm64": "sha256-FjNFayFJmS8LJvytzC/52ITefD2yj5FcvD3JA+Jm6mM=",
+    "linux_amd64": "sha256-2SGFM7bLbns7ANlIhnukj74JNqZ9PXA0RR/cCgtkoRg=",
+    "linux_arm64": "sha256-5GdYULirfv6HKOJYFlBc92NjWK9aGXNqTQCRLDYpYaI="
   }
 }
