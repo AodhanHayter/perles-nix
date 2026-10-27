@@ -51,7 +51,7 @@ nix run github:AodhanHayter/perles-nix
 | Binary | `perles` |
 | Completions | bash, zsh and fish, generated from the binary at build time |
 | Updates | the store is read-only, so `perles update` is a no-go — bump this flake instead |
-| Platforms | `x86_64-darwin`, `aarch64-darwin`, `x86_64-linux`, `aarch64-linux` |
+| Platforms | `aarch64-darwin`, `x86_64-linux`, `aarch64-linux` |
 
 Upstream builds with `CGO_ENABLED=0`, so the binaries are static and need no patching.
 
